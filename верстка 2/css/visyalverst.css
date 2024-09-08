@@ -1,0 +1,394 @@
+*{
+    /* база*/
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    /* убрать декорацию кнопок*/
+    text-decoration: none;
+}
+
+/* header*/
+
+.header{
+    padding: 17px 0;
+}
+
+.contener{
+    /* ограничиваем а потом выставляем*/
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.header_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_menu{
+    display: flex;
+}
+.header_link{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header_item{
+    margin-right: 30px;
+}
+
+.btn{
+    color: white;
+    font-size: 20;
+    font-weight: 400;
+    background-color:rgba(1, 153, 109, 1);
+    ;
+    padding: 13px 50px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.header_btn_white{
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+/* МЕНЮ*/
+
+.main_info{
+    padding-top: 70px;
+    height: 90vh;
+    
+    background: url(../css/head/BG.png)no-repeat center center / cover;
+}
+.main_title{
+    display: flex;
+    align-items: center;
+    font-weight: 480px;
+    color: rgba(1, 153, 109, 1);
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-left: 275px;
+    max-width: 420px;
+
+}
+
+.main_btn{
+    margin-left: 275px;
+    border-radius: 0;
+}
+.main_text{
+    color: #484848;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 55px;
+    margin-left: 275px;
+    max-width: 420px;
+}
+
+/*steps */
+
+.step__wrap{
+   
+    margin-left: 300px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 37.68px;
+    text-align: left;
+    margin-right: 232px;
+}
+
+.steps kart{
+    color: #292929;
+    font-weight: 700;
+    font-size: 24px;
+}
+.steps_title{
+    color: rgba(1, 153, 109, 1);
+    font-weight: 900;
+    font-size: 50px;
+    min-width: 584px;
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.5px;
+    text-align: left;
+
+}
+.steps_text{
+    
+    color: 42424242;
+    font-size: 20px;
+    font-weight: 500;
+    min-width: 670px;
+    margin-bottom: 60px;
+}
+
+.step_texs{
+    
+    margin-left: 995px;
+    max-width: 671px;
+    margin-bottom: 200px;
+    size: 10px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    opacity: 0px;
+    margin-right: 200px;
+
+}
+
+
+.steps_block{
+    display: flex;
+    align-items: center;
+    
+}
+.steps_title{
+    color: rgba(1, 153, 109, 1);
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.5px;
+    text-align: left;
+    max-width: 50px;
+    gap: 0px;
+    opacity: 0px;
+    
+} 
+.steps_whrite{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 37.68px;
+    text-align: left;
+    color:rgba(66, 66, 66, 1);
+}
+.stepskart{
+    min-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.steps_roll{
+    display: flex;
+    justify-content: space-between;
+}
+
+.picter{
+    border-radius: 12px;
+    
+}
+
+.step_tex{
+    justify-content: space-between;
+    display: flex;
+    max-width: 382px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    
+    
+}
+.stepscortrirle{
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+
+}
+
+
+/* зелёный фон*/
+
+.bggreen{
+    
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 37.68px;
+    text-align: left;
+    
+}
+
+.bginfo{
+    
+    background: url(./GreenBG/BG\ GreenScreen.png);
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 37.68px;
+    text-align: left;
+    margin-top: 200px;
+    padding-top: 310px;
+    height: 920px;
+    background-size: contain;
+    display: flex;
+    
+}
+.textbggr{
+    
+    margin-left: 207px;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    min-width: 584px;
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.5px;
+    text-align: left;
+    border-color: black;
+    border-radius:20px;
+    
+    
+}
+
+.titlebggr{
+    
+    color: white;
+    
+    font-size: 50px;
+    min-width: 584px;
+    font-family: Georgia;
+   
+    font-weight: 700;
+    line-height: 78.5px;
+    text-align: left;
+    border-color: black;
+    border-radius:20px;
+}
+.vidio{
+    max-width: 895.84px;
+    max-height: 516.11px;
+}
+
+.doptit{
+    line-height: none;
+    
+}
+
+.norool{
+    border-radius:0;
+}
+
+/* закрытие*/
+.closing{
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 37.68px;
+    text-align: left;
+    margin-top: 200px;
+    
+    height: 920px;
+    background-size: contain;
+    display: flex;
+    background-color: white;
+}
+
+
+.foto{
+    
+    padding-left: 200px;
+    min-width:638.46;
+    min-height: 673.26px;
+    padding-left: 335px;
+    position: absolute;
+}
+
+.foro2P{
+    min-width: 526;
+    min-height: 673.26px;
+    padding-bottom: 202px;
+    padding-left: 275px;
+    position: absolute;
+    padding-top: 474px;
+}
+
+.foto21{
+    position: relative;
+}
+
+.titlecc{
+    
+    margin-left: 1191px ;
+    color: rgb(42,42,42);
+    font-weight: 900;
+    font-size: 25px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.gtitl{
+    align-items: center;
+    font-weight: 480px;
+    color: rgba(1, 153, 109, 1);
+    font-size: 65px;
+    font-weight: 900;
+    margin-left: 1191px;
+    max-width: 4202px;
+    line-height: 78.5px;
+}
+
+.pgtitl{
+    margin-top: 20px;
+    margin-left: 1191px ;
+    max-width: 530px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.drmbtn{
+    margin-left: 1191px ;
+    margin-top: 60px;
+}
+/* Подвал */
+.podval{
+    background: url(./GreenBG/BG\ GreenScreen.png);
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 95px;
+    padding-top: 95px;
+    height: 654px;
+    
+    padding-left: 275px;
+    
+}
+
+
+
+.pod_item{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
